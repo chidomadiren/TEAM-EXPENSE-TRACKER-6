@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h3>Team Expense Tracker</h3>
+<input id="name" placeholder="Name">
+<input id="desc" placeholder="Description">
+<input id="amount" type="number" placeholder="Amount $">
+<select id="category"><option>Food</option><option>Transport</option><option>Other</option></select>
+<button onclick="addExpense()">Add</button>
+<ul id="list"></ul>
+<p>Total: $<span id="total">0</span></p>
+<script src="script.js"></script>
+</body>
+</html>
